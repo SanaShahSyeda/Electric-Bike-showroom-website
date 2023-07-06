@@ -5,9 +5,10 @@
 }
 
 :root{
-    --primarybg: rgb(238, 244, 249);
+    --primarybg: rgb(224, 231, 238);
     --aesthetic: #b35f12;
     --aesthetichover: #d7b28f;
+    --secondary: rgb(57, 87, 187);
 }
 
 .main{
@@ -22,7 +23,7 @@
     font-size: 35px;
     margin-left: 90px;
     display: flex;
-    color: rgb(118, 84, 159);
+    color: var(--secondary);
 }
 
 .LogoText span{
@@ -50,7 +51,6 @@ nav ul li a, .dropdown li .dropbtn{
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
-    align-items: right;
 }
 
 .dropdown {
@@ -96,3 +96,85 @@ nav ul li a, .dropdown li .dropbtn{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+ .container h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top:70px;
+    color: var(--secondary);
+ }
+
+ .container .left .one div img{
+  width: 60px;
+  margin-left: 60px;
+  margin-top: 180px;
+}
+
+ .container .left .one h4{
+  margin-top: -60px;
+  margin-left: 120px;
+  color: var(--aesthetic);
+}
+
+.container .left .one h3{
+  margin-left: 130px;
+}
+
+.container .left .two div img{
+  width: 60px;
+  margin-left: 330px;
+  margin-top: -60px;
+}
+
+.container .left .two h4{
+  margin-left: 390px;
+  margin-top: -70px;
+  color: var(--aesthetic);
+}
+
+.container .left .two h3{
+  margin-left: 390px;
+}
+
+.container .left .three div img{
+  width: 50px;
+  margin-left: 60px;
+  margin-top: 90px;
+}
+
+.container .left .three h4{
+  margin-left: 120px;
+  margin-top: -50px;
+  color: var(--aesthetic);
+}
+
+.container .left .three h3{
+  margin-left: 130px;
+}
+
+.container .left .four div img{
+  width: 60px;
+  margin-left: 330px;
+  margin-top: -2000px;
+}
+
+.container .left .four h3{
+  margin-left: 380px;
+  margin-top: -70px;
+  color: var(--aesthetic);
+}
+
+.container .left .four h4{
+  margin-left: 390px;
+}
+
+.container  .middle img{
+    margin-left: 550px;
+    margin-top: -220px;
+}
+
+.container .right .one div img{
+    width: 60px;
+}
+
