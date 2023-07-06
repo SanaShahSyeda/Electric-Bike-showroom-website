@@ -180,9 +180,10 @@ nav ul li a, .dropdown li .dropbtn{
 }
 
 .container .right .right-one h2{
-  margin-left: 1120px;
+  margin-left: 1090px;
   margin-top: -400px;
   font-style: oblique;
+  font-size: 28px;
   color: var(--secondary);
 }
 
