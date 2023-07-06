@@ -230,6 +230,7 @@ nav ul li a, .dropdown li .dropbtn{
 
  .bike-menu{
   height: 750px;
+  margin-bottom: 60px;
   background-color: var(--secondarybg);
 }
 
@@ -252,10 +253,19 @@ nav ul li a, .dropdown li .dropbtn{
 }
 
 .bike-menu .model1 div img, .bike-menu .model2 div img, .bike-menu .model3 div img,
-.bike-menu .model5 div img, .bike-menu .model6 div img{
+.bike-menu .model5 div img{
   width: 380px;
-  margin-top: 50px;
   background-color: var(--secondarybg);
+}
+
+.bike-menu .model4 div img, .bike-menu .model5 div img, .bike-menu .model6 div img,
+.bike-menu .model1 div img, .bike-menu .model2 div img, .bike-menu .model3 div img{
+  height: 270px;
+}
+
+.bike-menu .model2 .btn-4, .bike-menu .model6 .btn-12, .bike-menu .model5 .btn-10, 
+.bike-menu .model3 .btn-6, .bike-menu .model4 .btn-8, .bike-menu .model1 .btn-2{
+margin-left: 10px;
 }
 
 .bike-menu .model1 div img{
@@ -274,11 +284,6 @@ nav ul li a, .dropdown li .dropbtn{
   margin-left: 180px;
 }
 
-.bike-menu .model2 .btn-4, .bike-menu .model6 .btn-12, .bike-menu .model5 .btn-10, 
-.bike-menu .model3 .btn-6, .bike-menu .model4 .btn-8, .bike-menu .model1 .btn-2{
-margin-left: 10px;
-}
-
 .bike-menu .model3 div img{
   margin-left: 70px;
 }
@@ -289,7 +294,7 @@ margin-left: 10px;
 
 .bike-menu .model4 div img{
   width: 450px;
-  margin-top: 50px;
+  margin-top: 15px;
   margin-left: 70px;
   background-color: var(--secondarybg);
 }
@@ -300,6 +305,7 @@ margin-left: 10px;
 
 .bike-menu .model5 div img{
   margin-left: 45px;
+  margin-top: 15px;
 }
 
 .bike-menu .model5 .btn-9{
@@ -307,7 +313,10 @@ margin-left: 10px;
 }
 
 .bike-menu .model6 div img{
+  width: 380px;
   margin-left: 45px;
+  margin-top: 0px;
+  background-color: var(--secondarybg);
 }
 
 .bike-menu .model6 .btn-11{
@@ -343,4 +352,17 @@ margin-left: 10px;
 .bike-menu .btn2:hover{
   color: var(--aesthetic);
   background-color: white;
+}
+
+.features .feature-heading {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.features .feature-heading h1 span{
+   color: var(--aesthetic);
+} 
+
+.features{
+  height: 640px;
 }
