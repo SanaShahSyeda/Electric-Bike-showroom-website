@@ -439,7 +439,7 @@ margin-left: 10px;
 }
 
 .experience{
-  height: 660px;
+  height: 690px;
   background-color: var(--secondarybg);
 }
 
@@ -514,3 +514,12 @@ margin-left: 10px;
    color: var(--secondary);
    font-size: 20px;
 }
+
+.contact-us{
+  height: 680px;
+  background-color: var(--primarybg);
+}
+
+.contact-us h1{
+  text-align: center;
+} 
