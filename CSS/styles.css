@@ -525,7 +525,7 @@ margin-left: 10px;
   margin-bottom: 50px;
 }
 
-.address:before, .bank-details:before, .models:before{
+.address:before, .bank-details:before, .models:before, .company:before{
   content: "";
   width: 280px;
   border-bottom: 6px solid var(--aesthetic);
@@ -547,14 +547,14 @@ margin-left: 10px;
   margin-top: -50px;
 } 
 
-.bank-2{
-  margin-top: -80px;
-}
-
 .address-one h5, .address-two h5,  .bank-1 h5, .bank-2 h5,
 .models h5{
   margin-top: 5px;
   color: rgb(79, 79, 79);
+}
+
+.bank-2 h3{
+  margin-top: 30px;
 }
 
 .bank-1, .bank-2{
@@ -563,20 +563,45 @@ margin-left: 10px;
   margin-left: 120px;
 }
 
+.bank-2{
+  margin-top: -80px;
+}
+
 .bank-1, .models h3{
   margin-top:10px;
 }
 
 .models:before{
   display:flex;
-  margin-top: -550px;
+  margin-top: -580px;
 }
 
-.models h3, .models h5,.models:before{
+.models h3, .models h5,.models:before, .company h3, .company::before, .company a{
    margin-left: 570px;
 }
 
 .models h5{
   font-size: 18px;
   margin-top: 10px;
+}
+
+.company::before{
+  margin-top: 65px;
+  display: inline-block;
+}
+
+.company h3{
+  margin-top: 10px;
+}
+
+.company a{
+  display: flex;
+  margin-top: 9px;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.company a:hover{
+  font-size: 18px;
+  color: var(--aesthetic);
 }
