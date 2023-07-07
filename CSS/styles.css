@@ -363,7 +363,7 @@ margin-left: 10px;
 } 
 
 .features{
-  height: 640px;
+  height: 630px;
 }
 
 .section1, .section2, .section3, .section4{
@@ -372,7 +372,7 @@ margin-left: 10px;
 
 .features .section1 div img{
   width: 240px;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 140px;
 }
 
@@ -435,4 +435,22 @@ margin-left: 10px;
 .features .section1 div h3, .features .section2 div h3, .features .section3 div h3,
 .features .section4 div h3{
   color: var(--aesthetic);
+}
+
+.experience{
+  height: 710px;
+  background-color: var(--secondarybg);
+}
+
+.experience .experience-heading h1{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  background-color: var(--secondarybg);
+}
+
+.experience .experience-heading h1 span{
+  margin-top: 50px;
+  color: var(--secondary);
+  background-color: var(--secondarybg);
 }
