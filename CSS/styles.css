@@ -516,7 +516,7 @@ margin-left: 10px;
 }
 
 .contact-us{
-  height: 680px;
+  height: 630px;
   background-color: var(--primarybg);
 }
 
@@ -525,7 +525,12 @@ margin-left: 10px;
   margin-bottom: 50px;
 }
 
-.address:before, .bank-details:before, .models:before, .company:before{
+.contact-us h1 span{
+  color: var(--secondary);
+}
+
+.address:before, .bank-details:before, .models:before,
+.company:before, .blogs:before{
   content: "";
   width: 280px;
   border-bottom: 6px solid var(--aesthetic);
@@ -603,6 +608,36 @@ margin-left: 10px;
 }
 
 .company a:hover{
-  font-size: 18px;
   color: var(--aesthetic);
+}
+
+
+.blogs div h3, .blogs div a{
+  margin-left: 1060px; 
+}
+
+.blogs:before{
+  display: flex;
+  margin-left: 1060px;
+  margin-top: -460px;
+}
+
+.blogs h2{
+  margin-top: 10px;
+  margin-left: 1060px;
+}
+
+.blogs h3{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.blogs a{
+  color: var(--aesthetic);
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.blogs a:hover{
+  color: var(--secondary);
 }
