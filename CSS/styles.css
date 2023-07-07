@@ -522,4 +522,39 @@ margin-left: 10px;
 
 .contact-us h1{
   text-align: center;
-} 
+  margin-bottom: 50px;
+}
+
+.address:before, .bank-details:before{
+  content:"";
+  display:inline-block;
+  width: 280px;
+  margin-left: 120px;
+  border-bottom: 6px solid var(--aesthetic);
+}
+
+.address-one,.address-two{
+  height:160px;
+  width: 280px;
+  margin-left: 120px;
+  margin-right: 10px;
+}
+
+.address-two, .bank-2{
+  margin-top: -50px;
+}
+
+.address-one h5, .address-two h5,  .bank-1 h5, .bank-2 h5{
+  margin-top: 5px;
+  color: rgb(79, 79, 79);
+}
+
+.bank-1, .bank-2{
+  height:160px;
+  width: 280px;
+  margin-left: 120px;
+}
+
+.bank-1{
+  margin-top:10px;
+}
